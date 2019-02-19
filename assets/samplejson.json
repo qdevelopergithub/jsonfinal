@@ -1,0 +1,29 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "ParentNode": {
+      "title": "Parent Node",
+      "id": 1,
+      "ideas": {
+        "Childnode1": {
+          "title": "Child node 1",
+          "id": 2
+        },
+        "Childnode2": {
+          "title": "Child node 2",
+          "id": 3,
+          "ideas": {}
+        }
+      }
+    }
+  }
+}
+  
+  
+  
+  
+  
+  
+  
+  
