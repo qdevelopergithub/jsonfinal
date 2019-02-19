@@ -15,4 +15,8 @@ Future loadStudent() async {
   Sample sample = new Sample.fromJson(jsonResponse);
   print(sample.ideas.parentNode.title);
   print(sample.ideas.parentNode.id);
+  print(sample.ideas.parentNode.ideas.childnode1.title);
+  print(sample.ideas.parentNode.ideas.childnode1.id);
+  print(sample.ideas.parentNode.ideas.childnode2.title);
+  print(sample.ideas.parentNode.ideas.childnode2.id);
 }
